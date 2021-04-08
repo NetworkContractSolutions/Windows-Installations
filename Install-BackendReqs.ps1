@@ -62,8 +62,8 @@ $VsExecutable = ([uri]$VsCommunityUrl | Select-Object -ExpandProperty Segments)[
 # Hardcoding to this version as it is the latest.  No easy way to just get the latest because Microsoft is stupid with the versioning of .net core now
 #   and grabbing the release from Github...Well yeah all the links are in markdown files so this is what you get
 $DotNetFolderPath = "$RootFolderPath\DotNetCore"
-$DotNetHash = "eec02a5434de65b36b481136db06cd10eba4ca5c4947b536d567b003a8cac4f29012b74ad131a1e0dd4a79611702aa660f57949f0761259d1050d2481e4929cd" # SHA512
-$DotNetUrl = 'https://download.visualstudio.microsoft.com/download/pr/854ca330-4414-4141-9be8-5da3c4be8d04/3792eafd60099b3050313f2edfd31805/dotnet-sdk-3.1.101-win-x64.exe'
+$DotNetHash = "00bf9b1680e36e4baf7dd699acb7b6c7ed138281a3064e8261d6ff5ba1e04a6847f2a2819e861c66482cd521f1c0527d5cfe20d53ea127413b3fc7a80b01f8b6" # SHA512
+$DotNetUrl = 'https://download.visualstudio.microsoft.com/download/pr/2de622da-5342-48ec-b997-8b025d8ee478/5c11b643ea7534f749cd3f0e0302715a/dotnet-sdk-5.0.202-win-x64.exe'
 $DotNetExecutableName = ([uri]$DotNetUrl | Select-Object -ExpandProperty Segments)[([uri]$DotNetUrl | Select-Object -ExpandProperty Segments).length - 1]
 
 # *** Git ***
