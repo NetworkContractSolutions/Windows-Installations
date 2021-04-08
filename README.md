@@ -21,7 +21,7 @@ This PowerShell script will check your Windows machine to see if the required to
 1. In your Powershell window change to your `Downloads` Directory by typing the following
    - `cd $env:HOMEPATH\Downloads`
 1. Copy and paste the follwing into the Powershell window
-   > iex ((New-Object System.Net.WebClient).DownloadString('https://bit.ly/2MjrDVf'))
+   > iex ((New-Object System.Net.WebClient).DownloadString('https://bit.ly/3mD7Y28'))
 1. Press Enter Key
 1. ???
 1. PROFIT!
